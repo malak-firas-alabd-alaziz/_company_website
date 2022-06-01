@@ -1,0 +1,34 @@
+.intro{
+    background: rgb(10,18,97);
+background: linear-gradient(124deg, rgba(10,18,97,1) 42%, rgba(255,69,0,1) 75%);
+     background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    .content{
+        flex: 1 1 42rem;
+        h3{
+            font-size: 40px;
+            color: $withe;
+            padding-bottom: 20px;
+        }
+        p{
+            font-size: 30px;
+            color: #eee;
+            line-height: 1.4;
+            padding:1rem 0 ;
+            padding-bottom: 30px;
+        }
+    }
+
+    .image{
+        flex: 1 1 42rem;
+        img{
+            width: 100%;
+        }
+    }
+}

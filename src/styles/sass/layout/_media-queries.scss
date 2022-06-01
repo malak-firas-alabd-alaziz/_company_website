@@ -1,0 +1,42 @@
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+}
+
+@media(max-width:865px){
+    #menu-btn{display:inline-block; padding: 0 40px 20px 0;}
+    header{
+        .navbar{
+            position: absolute;
+            top: 112px;
+            left: 0;
+            right: 0;
+            background: orangered;
+            clip-path: polygon(0 0 , 100% 0, 100% 0, 0 0 );
+            &.active{
+                clip-path: polygon(0 0 , 100% 0, 100% 100%, 0 100% );
+                margin:0 0 0 0;
+            }
+            a{
+                width: 100%;      
+                display: block;
+                padding: 20px 0;
+            }
+        }
+    }
+
+    .intro{
+        height: 100%;
+        .content {
+            margin: 130px 0 50px 0;
+        }
+    }
+
+    .next > .content > h1{
+        font-size: 20px;
+    }
+}

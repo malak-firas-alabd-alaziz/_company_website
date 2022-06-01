@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%,-50%);
+
+
+    .logo{
+        padding: 20px;
+        margin-left: 30px;
+        img{
+            width: 80px;
+        }
+    }
+
+    .navbar{
+        margin: 35px 50px 35px 35px;
+        a{
+            padding-left: 28px;
+            font-size: 20px;
+            color: $withe;
+            &:hover{
+                color:#eca60e;
+            }
+        }
+    }
+}
+
+
+#menu-btn{
+    cursor: pointer;
+    color: #fff;
+    font-size: 35px;
+    padding-right: 25px;
+    display: none;
+}

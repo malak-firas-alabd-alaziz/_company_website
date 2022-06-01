@@ -1,0 +1,33 @@
+.other{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 4rem;
+    margin:30px;
+
+    .content{
+        flex: 1 1 42rem;
+        padding-bottom: 20px;
+        h4{
+            padding-bottom: 3rem;
+            font-size: 24px;
+            color: #0c0e4e;
+            line-height: 1.4;
+        }
+
+        p{
+            font-size: 20px;
+            color: #56575e;
+            line-height: 1.5;
+        }
+    }
+
+    .image{
+        flex: 2 2 42rem;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

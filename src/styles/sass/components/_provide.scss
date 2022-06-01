@@ -1,0 +1,32 @@
+.provide{
+    background: #eee;
+    padding-bottom: 60px;
+    .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .box{
+            text-align: center;
+            width: 200px;
+            margin: 10px;
+            h4{ 
+                font-size: 20px;
+                font-weight: 500;
+                color: $blue;
+                padding: 8px;
+            }
+            .line{
+                width: 50px;
+                height: 2px;
+                background: orangered;
+                margin: auto;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 12px;
+                color: #56575e;
+            }
+        }
+    }
+}

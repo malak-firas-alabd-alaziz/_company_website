@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    list-style: none;
+    transition: all .3s ease-in;
+}
+
+html{
+    overflow-x: hidden;
+    font-size: 65.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+section{
+    padding: 3rem 5%;
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #eca60e;
+background: linear-gradient(0deg, #eca60e 8%, orangered
+45%);
+}
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax($val,1fr));
+    gap: 1rem;
+}
+
+$withe:#fff;
+$box-shadow:0 5px 1px rgba(0,0,0,0.1);
+
+
+$orange:orange;
+$blue:#0a1261;
+$gray:gray;

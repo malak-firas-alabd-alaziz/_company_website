@@ -1,0 +1,55 @@
+.clients{
+    text-align: center;
+    margin: 30px;
+
+   > .head{
+        font-size: 30px;
+        color: gray;
+        padding: 10px 0;
+        font-weight: 500;
+    }
+
+    .line{
+        width: 60px;
+        height: 2px;
+        background: gray;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    .box-container{
+        @include grid(28rem);
+        gap: 20px;
+        margin: 20px;
+        .box{
+            padding: 40px 20px 40px 20px;
+            background: #f1efef;
+            .info{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                }
+               > h4{
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding: 10px 0;
+                    color: $blue;
+                }
+            }
+
+            .comment{
+                p{            
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 1.8;
+                    margin-bottom: 18px;
+                }
+                i{    
+                    font-size: 33px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
